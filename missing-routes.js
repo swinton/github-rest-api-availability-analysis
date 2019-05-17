@@ -1,5 +1,7 @@
 const routesDotCom = require('@octokit/routes/routes/api.github.com')
 
+const exceptions = ['apps.create-from-manifest']
+
 const analysis = () => {
   const routesMissing = {}
 
@@ -23,7 +25,8 @@ const analysis = () => {
     // E.g. 'get', GET', '/repos/:owner/:repo'
     for (const route of routesDotCom[namespace]) {
       const { idName } = route
-      const routeMissing = !routesGHES216ByIdName.hasOwnProperty(idName)
+      const routeMissing = !routesGHES216ByIdName.hasOwnProperty(idName) &&
+        !exceptions.includes(`${namespace}.${idName}`)
       if (routeMissing) {
         routesMissing[namespace] = routesMissing[namespace] || []
         routesMissing[namespace].push(route)
