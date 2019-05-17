@@ -1,4 +1,4 @@
-workflow "Update" {
+workflow "Regenerate" {
   on = "push"
   resolves = "Commit, and push changes"
 }
@@ -14,7 +14,7 @@ action "Update" {
 }
 
 action "Validate" {
-  needs = ["Regenerate"]
+  needs = ["Update"]
   uses = "./.github/actions/validate-json"
 }
 
