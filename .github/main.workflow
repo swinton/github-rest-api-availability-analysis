@@ -8,10 +8,9 @@ action "Install" {
   args = "install --only=production"
 }
 
-action "Regenerate" {
+action "Update" {
   needs = ["Install"]
-  uses = "actions/bin/sh@master"
-  args = "./regenerate.sh"
+  uses = "./.github/actions/update"
 }
 
 action "Validate" {
