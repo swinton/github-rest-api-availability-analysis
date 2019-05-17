@@ -1,5 +1,7 @@
 # `github-rest-api-availability-analysis`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/swinton/github-rest-api-availability-analysis.svg)](https://greenkeeper.io/)
+
 The following REST API routes are currently _unavailable_ on GitHub Enterprise Server 2.16:
 
 <!-- BEGIN -->
