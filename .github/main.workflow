@@ -1,4 +1,4 @@
-workflow "Regenerate" {
+workflow "Update" {
   on = "push"
   resolves = "Commit, and push changes"
 }
