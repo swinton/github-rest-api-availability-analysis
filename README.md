@@ -2,6 +2,7 @@
 
 The following REST API routes are currently _unavailable_ on GitHub Enterprise Server 2.16:
 
+<!-- BEGIN -->
 ## apps
 - Delete an installation:  [`DELETE /app/installations/:installation_id`](https://developer.github.com/v3/apps/#delete-an-installation)
 - Create a GitHub App from a manifest:  [`POST /app-manifests/:code/conversions`](https://developer.github.com/v3/apps/#create-a-github-app-from-a-manifest)
@@ -121,3 +122,4 @@ The following REST API routes are currently _unavailable_ on GitHub Enterprise S
 - Unblock a user:  [`DELETE /user/blocks/:username`](https://developer.github.com/v3/users/blocking/#unblock-a-user)
 - Toggle primary email visibility:  [`PATCH /user/email/visibility`](https://developer.github.com/v3/users/emails/#toggle-primary-email-visibility)
 
+<!-- END -->

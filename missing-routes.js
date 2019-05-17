@@ -1,6 +1,6 @@
 const routesDotCom = require('@octokit/routes/routes/api.github.com')
 
-module.exports = () => {
+const analysis = () => {
   const routesMissing = {}
 
   // Iterate over each api.github.com namespace, e.g. 'repos`
@@ -30,6 +30,12 @@ module.exports = () => {
       }
     }
   }
-  
+
   return routesMissing  
+}
+module.exports = analysis
+
+
+if (require.main === module) {
+  console.log(JSON.stringify(analysis(), '', 4))
 }
