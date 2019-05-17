@@ -5,7 +5,6 @@ The following REST API routes are currently _unavailable_ on GitHub Enterprise S
 <!-- BEGIN -->
 ## apps
 - Delete an installation:  [`DELETE /app/installations/:installation_id`](https://developer.github.com/v3/apps/#delete-an-installation)
-- Create a GitHub App from a manifest:  [`POST /app-manifests/:code/conversions`](https://developer.github.com/v3/apps/#create-a-github-app-from-a-manifest)
 - List all plans for your Marketplace listing:  [`GET /marketplace_listing/plans`](https://developer.github.com/v3/apps/marketplace/#list-all-plans-for-your-marketplace-listing)
 - List all plans for your Marketplace listing (stubbed):  [`GET /marketplace_listing/stubbed/plans`](https://developer.github.com/v3/apps/marketplace/#list-all-plans-for-your-marketplace-listing)
 - List all GitHub accounts (user or organization) on a specific plan:  [`GET /marketplace_listing/plans/:plan_id/accounts`](https://developer.github.com/v3/apps/marketplace/#list-all-github-accounts-user-or-organization-on-a-specific-plan)
@@ -123,3 +122,7 @@ The following REST API routes are currently _unavailable_ on GitHub Enterprise S
 - Toggle primary email visibility:  [`PATCH /user/email/visibility`](https://developer.github.com/v3/users/emails/#toggle-primary-email-visibility)
 
 <!-- END -->
+
+## Usage
+
+Run the included script, [`regenerate.sh`](regenerate.sh), to update this information.
