@@ -9,7 +9,7 @@
             "previews": [
                 {
                     "name": "gambit",
-                    "description": "**Note:** Unintalling GitHub Apps using the REST API is currently available for developers to preview. To access the new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.gambit-preview+json\n\n```",
+                    "description": "**Note:** Uninstalling GitHub Apps using the REST API is currently available for developers to preview. To access the new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.gambit-preview+json\n\n```",
                     "required": true
                 },
                 {
@@ -4666,6 +4666,71 @@
     ],
     "pulls": [
         {
+            "name": "Update a pull request branch",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "PUT",
+            "path": "/repos/:owner/:repo/pulls/:pull_number/update-branch",
+            "previews": [
+                {
+                    "name": "lydian",
+                    "description": "**Note:** Updating the pull request branch with latest upstream changes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.lydian-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "pull_number",
+                    "type": "integer",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "expected_head_sha",
+                    "type": "string",
+                    "description": "The expected SHA of the pull request's HEAD ref. This is the most recent commit on the pull request's branch. If the expected SHA does not match the pull request's HEAD, you will receive a `422 Unprocessable Entity` status. You can use the \"[List commits on a repository](https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository)\" endpoint to find the most recent commit SHA.",
+                    "default": "SHA of the pull request's current HEAD ref.",
+                    "required": false,
+                    "location": "body"
+                }
+            ],
+            "requests": [
+                {
+                    "expected_head_sha": "6dcb09b5b57875f334f61aebed695e2e4193db5e"
+                }
+            ],
+            "description": "Updates the pull request branch with the latest upstream changes by merging HEAD from the base branch into the pull request branch.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "202 Accepted",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "body": {
+                        "message": "Updating pull request branch.",
+                        "url": "https://github.com/repos/octocat/Hello-World/pulls/53"
+                    }
+                }
+            ],
+            "idName": "update-branch",
+            "documentationUrl": "https://developer.github.com/v3/pulls/#update-a-pull-request-branch"
+        },
+        {
             "name": "Update a pull request review",
             "enabledForApps": true,
             "githubCloudOnly": false,
@@ -4914,6 +4979,88 @@
             ],
             "idName": "disable-vulnerability-alerts",
             "documentationUrl": "https://developer.github.com/v3/repos/#disable-vulnerability-alerts"
+        },
+        {
+            "name": "Enable automated security fixes",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "PUT",
+            "path": "/repos/:owner/:repo/automated-security-fixes",
+            "previews": [
+                {
+                    "name": "london",
+                    "description": "**Note:** Enabling or disabling automated security fixes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.london-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                }
+            ],
+            "description": "Enables automated security fixes for a repository. The authenticated user must have admin access to the repository. For more information, see \"[Configuring automated security fixes](https://help.github.com/en/articles/configuring-automated-security-fixes)\" in the GitHub Help documentation.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "204 No Content",
+                        "content-type": "application/json; charset=utf-8"
+                    }
+                }
+            ],
+            "idName": "enable-automated-security-fixes",
+            "documentationUrl": "https://developer.github.com/v3/repos/#enable-automated-security-fixes"
+        },
+        {
+            "name": "Disable automated security fixes",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "DELETE",
+            "path": "/repos/:owner/:repo/automated-security-fixes",
+            "previews": [
+                {
+                    "name": "london",
+                    "description": "**Note:** Enabling or disabling automated security fixes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.london-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                }
+            ],
+            "description": "Disables automated security fixes for a repository. The authenticated user must have admin access to the repository. For more information, see \"[Configuring automated security fixes](https://help.github.com/en/articles/configuring-automated-security-fixes)\" in the GitHub Help documentation.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "204 No Content",
+                        "content-type": "application/json; charset=utf-8"
+                    }
+                }
+            ],
+            "idName": "disable-automated-security-fixes",
+            "documentationUrl": "https://developer.github.com/v3/repos/#disable-automated-security-fixes"
         },
         {
             "name": "List branches for HEAD commit",
@@ -5592,6 +5739,183 @@
             ],
             "idName": "retrieve-community-profile-metrics",
             "documentationUrl": "https://developer.github.com/v3/repos/community/#retrieve-community-profile-metrics"
+        },
+        {
+            "name": "Create or update a file",
+            "enabledForApps": true,
+            "githubCloudOnly": false,
+            "method": "PUT",
+            "path": "/repos/:owner/:repo/contents/:path",
+            "previews": [],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "path",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "message",
+                    "type": "string",
+                    "description": "The commit message.",
+                    "required": true,
+                    "location": "body"
+                },
+                {
+                    "name": "content",
+                    "type": "string",
+                    "description": "The new file content, using Base64 encoding.",
+                    "required": true,
+                    "location": "body"
+                },
+                {
+                    "name": "sha",
+                    "type": "string",
+                    "description": "**Required if you are updating a file**. The blob SHA of the file being replaced.",
+                    "required": false,
+                    "location": "body"
+                },
+                {
+                    "name": "branch",
+                    "type": "string",
+                    "description": "The branch name.",
+                    "default": "the repository’s default branch (usually `master`)",
+                    "required": false,
+                    "location": "body"
+                },
+                {
+                    "name": "committer",
+                    "type": "object",
+                    "description": "The person that committed the file.",
+                    "default": "the authenticated user.",
+                    "required": false,
+                    "location": "body"
+                },
+                {
+                    "name": "committer.name",
+                    "type": "string",
+                    "description": "The name of the author or committer of the commit. You'll receive a `422` status code if `name` is omitted.",
+                    "required": true,
+                    "location": "body"
+                },
+                {
+                    "name": "committer.email",
+                    "type": "string",
+                    "description": "The email of the author or committer of the commit. You'll receive a `422` status code if `name` is omitted.",
+                    "required": true,
+                    "location": "body"
+                },
+                {
+                    "name": "author",
+                    "type": "object",
+                    "description": "The author of the file.",
+                    "default": "The `committer` or the authenticated user if you omit `committer`.",
+                    "required": false,
+                    "location": "body"
+                },
+                {
+                    "name": "author.name",
+                    "type": "string",
+                    "description": "The name of the author or committer of the commit. You'll receive a `422` status code if `name` is omitted.",
+                    "required": true,
+                    "location": "body"
+                },
+                {
+                    "name": "author.email",
+                    "type": "string",
+                    "description": "The email of the author or committer of the commit. You'll receive a `422` status code if `name` is omitted.",
+                    "required": true,
+                    "location": "body"
+                }
+            ],
+            "requests": [
+                {
+                    "message": "my commit message",
+                    "committer": {
+                        "name": "Monalisa Octocat",
+                        "email": "octocat@github.com"
+                    },
+                    "content": "bXkgbmV3IGZpbGUgY29udGVudHM="
+                }
+            ],
+            "description": "Creates a new file or updates an existing file in a repository.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "201 Created",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "body": {
+                        "content": {
+                            "name": "hello.txt",
+                            "path": "notes/hello.txt",
+                            "sha": "95b966ae1c166bd92f8ae7d1c313e738c731dfc3",
+                            "size": 9,
+                            "url": "https://api.github.com/repos/octocat/Hello-World/contents/notes/hello.txt",
+                            "html_url": "https://github.com/octocat/Hello-World/blob/master/notes/hello.txt",
+                            "git_url": "https://api.github.com/repos/octocat/Hello-World/git/blobs/95b966ae1c166bd92f8ae7d1c313e738c731dfc3",
+                            "download_url": "https://raw.githubusercontent.com/octocat/HelloWorld/master/notes/hello.txt",
+                            "type": "file",
+                            "_links": {
+                                "self": "https://api.github.com/repos/octocat/Hello-World/contents/notes/hello.txt",
+                                "git": "https://api.github.com/repos/octocat/Hello-World/git/blobs/95b966ae1c166bd92f8ae7d1c313e738c731dfc3",
+                                "html": "https://github.com/octocat/Hello-World/blob/master/notes/hello.txt"
+                            }
+                        },
+                        "commit": {
+                            "sha": "7638417db6d59f3c431d3e1f261cc637155684cd",
+                            "node_id": "MDY6Q29tbWl0NzYzODQxN2RiNmQ1OWYzYzQzMWQzZTFmMjYxY2M2MzcxNTU2ODRjZA==",
+                            "url": "https://api.github.com/repos/octocat/Hello-World/git/commits/7638417db6d59f3c431d3e1f261cc637155684cd",
+                            "html_url": "https://github.com/octocat/Hello-World/git/commit/7638417db6d59f3c431d3e1f261cc637155684cd",
+                            "author": {
+                                "date": "2014-11-07T22:01:45Z",
+                                "name": "Monalisa Octocat",
+                                "email": "octocat@github.com"
+                            },
+                            "committer": {
+                                "date": "2014-11-07T22:01:45Z",
+                                "name": "Monalisa Octocat",
+                                "email": "octocat@github.com"
+                            },
+                            "message": "my commit message",
+                            "tree": {
+                                "url": "https://api.github.com/repos/octocat/Hello-World/git/trees/691272480426f78a0138979dd3ce63b77f706feb",
+                                "sha": "691272480426f78a0138979dd3ce63b77f706feb"
+                            },
+                            "parents": [
+                                {
+                                    "url": "https://api.github.com/repos/octocat/Hello-World/git/commits/1acc419d4d6a9ce985db7be48c6349a0475975b5",
+                                    "html_url": "https://github.com/octocat/Hello-World/git/commit/1acc419d4d6a9ce985db7be48c6349a0475975b5",
+                                    "sha": "1acc419d4d6a9ce985db7be48c6349a0475975b5"
+                                }
+                            ],
+                            "verification": {
+                                "verified": false,
+                                "reason": "unsigned",
+                                "signature": null,
+                                "payload": null
+                            }
+                        }
+                    }
+                }
+            ],
+            "idName": "create-or-update-file",
+            "documentationUrl": "https://developer.github.com/v3/repos/contents/#create-or-update-a-file"
         },
         {
             "name": "Enable a Pages site",
