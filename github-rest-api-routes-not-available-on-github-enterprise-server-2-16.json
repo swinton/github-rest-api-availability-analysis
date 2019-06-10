@@ -9,7 +9,7 @@
             "previews": [
                 {
                     "name": "gambit",
-                    "description": "**Note:** Unintalling GitHub Apps using the REST API is currently available for developers to preview. To access the new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.gambit-preview+json\n\n```",
+                    "description": "**Note:** Uninstalling GitHub Apps using the REST API is currently available for developers to preview. To access the new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.gambit-preview+json\n\n```",
                     "required": true
                 },
                 {
@@ -4666,6 +4666,71 @@
     ],
     "pulls": [
         {
+            "name": "Update a pull request branch",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "PUT",
+            "path": "/repos/:owner/:repo/pulls/:pull_number/update-branch",
+            "previews": [
+                {
+                    "name": "lydian",
+                    "description": "**Note:** Updating the pull request branch with latest upstream changes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.lydian-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "pull_number",
+                    "type": "integer",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "expected_head_sha",
+                    "type": "string",
+                    "description": "The expected SHA of the pull request's HEAD ref. This is the most recent commit on the pull request's branch. If the expected SHA does not match the pull request's HEAD, you will receive a `422 Unprocessable Entity` status. You can use the \"[List commits on a repository](https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository)\" endpoint to find the most recent commit SHA.",
+                    "default": "SHA of the pull request's current HEAD ref.",
+                    "required": false,
+                    "location": "body"
+                }
+            ],
+            "requests": [
+                {
+                    "expected_head_sha": "6dcb09b5b57875f334f61aebed695e2e4193db5e"
+                }
+            ],
+            "description": "Updates the pull request branch with the latest upstream changes by merging HEAD from the base branch into the pull request branch.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "202 Accepted",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "body": {
+                        "message": "Updating pull request branch.",
+                        "url": "https://github.com/repos/octocat/Hello-World/pulls/53"
+                    }
+                }
+            ],
+            "idName": "update-branch",
+            "documentationUrl": "https://developer.github.com/v3/pulls/#update-a-pull-request-branch"
+        },
+        {
             "name": "Update a pull request review",
             "enabledForApps": true,
             "githubCloudOnly": false,
@@ -4914,6 +4979,88 @@
             ],
             "idName": "disable-vulnerability-alerts",
             "documentationUrl": "https://developer.github.com/v3/repos/#disable-vulnerability-alerts"
+        },
+        {
+            "name": "Enable automated security fixes",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "PUT",
+            "path": "/repos/:owner/:repo/automated-security-fixes",
+            "previews": [
+                {
+                    "name": "london",
+                    "description": "**Note:** Enabling or disabling automated security fixes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.london-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                }
+            ],
+            "description": "Enables automated security fixes for a repository. The authenticated user must have admin access to the repository. For more information, see \"[Configuring automated security fixes](https://help.github.com/en/articles/configuring-automated-security-fixes)\" in the GitHub Help documentation.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "204 No Content",
+                        "content-type": "application/json; charset=utf-8"
+                    }
+                }
+            ],
+            "idName": "enable-automated-security-fixes",
+            "documentationUrl": "https://developer.github.com/v3/repos/#enable-automated-security-fixes"
+        },
+        {
+            "name": "Disable automated security fixes",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "DELETE",
+            "path": "/repos/:owner/:repo/automated-security-fixes",
+            "previews": [
+                {
+                    "name": "london",
+                    "description": "**Note:** Enabling or disabling automated security fixes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.london-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                }
+            ],
+            "description": "Disables automated security fixes for a repository. The authenticated user must have admin access to the repository. For more information, see \"[Configuring automated security fixes](https://help.github.com/en/articles/configuring-automated-security-fixes)\" in the GitHub Help documentation.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "204 No Content",
+                        "content-type": "application/json; charset=utf-8"
+                    }
+                }
+            ],
+            "idName": "disable-automated-security-fixes",
+            "documentationUrl": "https://developer.github.com/v3/repos/#disable-automated-security-fixes"
         },
         {
             "name": "List branches for HEAD commit",
