@@ -84,6 +84,7 @@ The following REST API routes are currently _unavailable_ on GitHub Enterprise S
 - Create a user project:  [`POST /user/projects`](https://developer.github.com/v3/projects/#create-a-user-project)
 
 ## pulls
+- Update a pull request branch:  [`PUT /repos/:owner/:repo/pulls/:pull_number/update-branch`](https://developer.github.com/v3/pulls/#update-a-pull-request-branch)
 - Update a pull request review:  [`PUT /repos/:owner/:repo/pulls/:pull_number/reviews/:review_id`](https://developer.github.com/v3/pulls/reviews/#update-a-pull-request-review)
 
 ## rateLimit
@@ -92,6 +93,8 @@ The following REST API routes are currently _unavailable_ on GitHub Enterprise S
 ## repos
 - Enable vulnerability alerts:  [`PUT /repos/:owner/:repo/vulnerability-alerts`](https://developer.github.com/v3/repos/#enable-vulnerability-alerts)
 - Disable vulnerability alerts:  [`DELETE /repos/:owner/:repo/vulnerability-alerts`](https://developer.github.com/v3/repos/#disable-vulnerability-alerts)
+- Enable automated security fixes:  [`PUT /repos/:owner/:repo/automated-security-fixes`](https://developer.github.com/v3/repos/#enable-automated-security-fixes)
+- Disable automated security fixes:  [`DELETE /repos/:owner/:repo/automated-security-fixes`](https://developer.github.com/v3/repos/#disable-automated-security-fixes)
 - List branches for HEAD commit:  [`GET /repos/:owner/:repo/commits/:commit_sha/branches-where-head`](https://developer.github.com/v3/repos/commits/#list-branches-for-head-commit)
 - List pull requests associated with commit:  [`GET /repos/:owner/:repo/commits/:commit_sha/pulls`](https://developer.github.com/v3/repos/commits/#list-pull-requests-associated-with-commit)
 - Retrieve community profile metrics:  [`GET /repos/:owner/:repo/community/profile`](https://developer.github.com/v3/repos/community/#retrieve-community-profile-metrics)
