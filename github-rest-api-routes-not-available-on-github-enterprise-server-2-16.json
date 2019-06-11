@@ -9,12 +9,12 @@
             "previews": [
                 {
                     "name": "gambit",
-                    "description": "**Note:** Unintalling GitHub Apps using the REST API is currently available for developers to preview. To access the new endpoint during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.gambit-preview+json\n\n```",
+                    "description": "**Note:** Uninstalling GitHub Apps using the REST API is currently available for developers to preview. To access the new endpoint during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.gambit-preview+json\n\n```",
                     "required": true
                 },
                 {
                     "name": "machine-man",
-                    "description": "**Note:** To access the API with your GitHub App, you must provide a custom [media type](/v3/media) in the `Accept` Header for your requests.\n\n`application/vnd.github.machine-man-preview+json`",
+                    "description": "**Note:** To access the API with your GitHub App, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` Header for your requests.\n\n`application/vnd.github.machine-man-preview+json`",
                     "required": true
                 }
             ],
@@ -764,7 +764,7 @@
             "previews": [
                 {
                     "name": "scarlet-witch",
-                    "description": "**Note:** The Codes of Conduct API is currently available for developers to preview.\n\nTo access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.scarlet-witch-preview+json\n\n```",
+                    "description": "**Note:** The Codes of Conduct API is currently available for developers to preview.\n\nTo access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.scarlet-witch-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -802,7 +802,7 @@
             "previews": [
                 {
                     "name": "scarlet-witch",
-                    "description": "**Note:** The Codes of Conduct API is currently available for developers to preview.\n\nTo access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.scarlet-witch-preview+json\n\n```",
+                    "description": "**Note:** The Codes of Conduct API is currently available for developers to preview.\n\nTo access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.scarlet-witch-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -842,7 +842,7 @@
             "previews": [
                 {
                     "name": "scarlet-witch",
-                    "description": "**Note:** The Codes of Conduct API is currently available for developers to preview.\n\nTo access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.scarlet-witch-preview+json\n\n```",
+                    "description": "**Note:** The Codes of Conduct API is currently available for developers to preview.\n\nTo access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.scarlet-witch-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -891,7 +891,7 @@
             "previews": [
                 {
                     "name": "sombra",
-                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
+                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](https://developer.github.com/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
                     "required": true
                 }
             ],
@@ -930,7 +930,7 @@
             "previews": [
                 {
                     "name": "sombra",
-                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
+                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](https://developer.github.com/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
                     "required": true
                 }
             ],
@@ -986,7 +986,7 @@
             "previews": [
                 {
                     "name": "sombra",
-                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
+                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](https://developer.github.com/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
                     "required": true
                 }
             ],
@@ -1020,7 +1020,7 @@
             "previews": [
                 {
                     "name": "sombra",
-                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
+                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](https://developer.github.com/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
                     "required": true
                 }
             ],
@@ -1066,7 +1066,7 @@
             "previews": [
                 {
                     "name": "sombra",
-                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
+                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](https://developer.github.com/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
                     "required": true
                 }
             ],
@@ -1129,7 +1129,7 @@
             "previews": [
                 {
                     "name": "sombra",
-                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
+                    "description": "**Note:** The Interactions API is currently in public preview. See the [blog post](https://developer.github.com/changes/2018-12-18-interactions-preview) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.sombra-preview\n\n```",
                     "required": true
                 }
             ],
@@ -1363,7 +1363,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -1547,7 +1547,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -1721,7 +1721,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -1762,7 +1762,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -1803,7 +1803,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -1851,7 +1851,7 @@
             "previews": [
                 {
                     "name": "barred-rock",
-                    "description": "The source import APIs are currently in public preview. See the [source import](/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
+                    "description": "The source import APIs are currently in public preview. See the [source import](https://developer.github.com/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
                     "required": true
                 }
             ],
@@ -1958,7 +1958,7 @@
             "previews": [
                 {
                     "name": "barred-rock",
-                    "description": "The source import APIs are currently in public preview. See the [source import](/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
+                    "description": "The source import APIs are currently in public preview. See the [source import](https://developer.github.com/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
                     "required": true
                 }
             ],
@@ -2002,7 +2002,7 @@
                     }
                 ]
             ],
-            "description": "View the progress of an import.\n\n**Import status**\n\nThis section includes details about the possible values of the `status` field of the Import Progress response.\n\nAn import that does not have errors will progress through these steps:\n\n*   `detecting` - the \"detection\" step of the import is in progress because the request did not include a `vcs` parameter. The import is identifying the type of source control present at the URL.\n*   `importing` - the \"raw\" step of the import is in progress. This is where commit data is fetched from the original repository. The import progress response will include `commit_count` (the total number of raw commits that will be imported) and `percent` (0 - 100, the current progress through the import).\n*   `mapping` - the \"rewrite\" step of the import is in progress. This is where SVN branches are converted to Git branches, and where author updates are applied. The import progress response does not include progress information.\n*   `pushing` - the \"push\" step of the import is in progress. This is where the importer updates the repository on GitHub. The import progress response will include `push_percent`, which is the percent value reported by `git push` when it is \"Writing objects\".\n*   `complete` - the import is complete, and the repository is ready on GitHub.\n\nIf there are problems, you will see one of these in the `status` field:\n\n*   `auth_failed` - the import requires authentication in order to connect to the original repository. To update authentication for the import, please see the [Update Existing Import](#update-existing-import) section.\n*   `error` - the import encountered an error. The import progress response will include the `failed_step` and an error message. Contact [GitHub Support](https://github.com/contact) for more information.\n*   `detection_needs_auth` - the importer requires authentication for the originating repository to continue detection. To update authentication for the import, please see the [Update Existing Import](#update-existing-import) section.\n*   `detection_found_nothing` - the importer didn't recognize any source control at the URL. To resolve, [Cancel the import](#cancel-an-import) and [retry](#start-an-import) with the correct URL.\n*   `detection_found_multiple` - the importer found several projects or repositories at the provided URL. When this is the case, the Import Progress response will also include a `project_choices` field with the possible project choices as values. To update project choice, please see the [Update Existing Import](#update-existing-import) section.\n\n**The project_choices field**\n\nWhen multiple projects are found at the provided URL, the response hash will include a `project_choices` field, the value of which is an array of hashes each representing a project choice. The exact key/value pairs of the project hashes will differ depending on the version control type.\n\n**Git LFS related fields**\n\nThis section includes details about Git LFS related fields that may be present in the Import Progress response.\n\n*   `use_lfs` - describes whether the import has been opted in or out of using Git LFS. The value can be `opt_in`, `opt_out`, or `undecided` if no action has been taken.\n*   `has_large_files` - the boolean value describing whether files larger than 100MB were found during the `importing` step.\n*   `large_files_size` - the total size in gigabytes of files larger than 100MB found in the originating repository.\n*   `large_files_count` - the total number of files larger than 100MB found in the originating repository. To see a list of these files, make a \"Get Large Files\" request.",
+            "description": "View the progress of an import.\n\n**Import status**\n\nThis section includes details about the possible values of the `status` field of the Import Progress response.\n\nAn import that does not have errors will progress through these steps:\n\n*   `detecting` - the \"detection\" step of the import is in progress because the request did not include a `vcs` parameter. The import is identifying the type of source control present at the URL.\n*   `importing` - the \"raw\" step of the import is in progress. This is where commit data is fetched from the original repository. The import progress response will include `commit_count` (the total number of raw commits that will be imported) and `percent` (0 - 100, the current progress through the import).\n*   `mapping` - the \"rewrite\" step of the import is in progress. This is where SVN branches are converted to Git branches, and where author updates are applied. The import progress response does not include progress information.\n*   `pushing` - the \"push\" step of the import is in progress. This is where the importer updates the repository on GitHub. The import progress response will include `push_percent`, which is the percent value reported by `git push` when it is \"Writing objects\".\n*   `complete` - the import is complete, and the repository is ready on GitHub.\n\nIf there are problems, you will see one of these in the `status` field:\n\n*   `auth_failed` - the import requires authentication in order to connect to the original repository. To update authentication for the import, please see the [Update Existing Import](https://developer.github.com/v3/migrations/source_imports/#update-existing-import) section.\n*   `error` - the import encountered an error. The import progress response will include the `failed_step` and an error message. Contact [GitHub Support](https://github.com/contact) for more information.\n*   `detection_needs_auth` - the importer requires authentication for the originating repository to continue detection. To update authentication for the import, please see the [Update Existing Import](https://developer.github.com/v3/migrations/source_imports/#update-existing-import) section.\n*   `detection_found_nothing` - the importer didn't recognize any source control at the URL. To resolve, [Cancel the import](https://developer.github.com/v3/migrations/source_imports/#cancel-an-import) and [retry](https://developer.github.com/v3/migrations/source_imports/#start-an-import) with the correct URL.\n*   `detection_found_multiple` - the importer found several projects or repositories at the provided URL. When this is the case, the Import Progress response will also include a `project_choices` field with the possible project choices as values. To update project choice, please see the [Update Existing Import](https://developer.github.com/v3/migrations/source_imports/#update-existing-import) section.\n\n**The project_choices field**\n\nWhen multiple projects are found at the provided URL, the response hash will include a `project_choices` field, the value of which is an array of hashes each representing a project choice. The exact key/value pairs of the project hashes will differ depending on the version control type.\n\n**Git LFS related fields**\n\nThis section includes details about Git LFS related fields that may be present in the Import Progress response.\n\n*   `use_lfs` - describes whether the import has been opted in or out of using Git LFS. The value can be `opt_in`, `opt_out`, or `undecided` if no action has been taken.\n*   `has_large_files` - the boolean value describing whether files larger than 100MB were found during the `importing` step.\n*   `large_files_size` - the total size in gigabytes of files larger than 100MB found in the originating repository.\n*   `large_files_count` - the total number of files larger than 100MB found in the originating repository. To see a list of these files, make a \"Get Large Files\" request.",
             "responses": [
                 {
                     "headers": {
@@ -2038,7 +2038,7 @@
             "previews": [
                 {
                     "name": "barred-rock",
-                    "description": "The source import APIs are currently in public preview. See the [source import](/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
+                    "description": "The source import APIs are currently in public preview. See the [source import](https://developer.github.com/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
                     "required": true
                 }
             ],
@@ -2109,7 +2109,7 @@
             "previews": [
                 {
                     "name": "barred-rock",
-                    "description": "The source import APIs are currently in public preview. See the [source import](/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
+                    "description": "The source import APIs are currently in public preview. See the [source import](https://developer.github.com/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
                     "required": true
                 }
             ],
@@ -2186,7 +2186,7 @@
             "previews": [
                 {
                     "name": "barred-rock",
-                    "description": "The source import APIs are currently in public preview. See the [source import](/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
+                    "description": "The source import APIs are currently in public preview. See the [source import](https://developer.github.com/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
                     "required": true
                 }
             ],
@@ -2263,7 +2263,7 @@
             "previews": [
                 {
                     "name": "barred-rock",
-                    "description": "The source import APIs are currently in public preview. See the [source import](/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
+                    "description": "The source import APIs are currently in public preview. See the [source import](https://developer.github.com/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
                     "required": true
                 }
             ],
@@ -2335,7 +2335,7 @@
             "previews": [
                 {
                     "name": "barred-rock",
-                    "description": "The source import APIs are currently in public preview. See the [source import](/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
+                    "description": "The source import APIs are currently in public preview. See the [source import](https://developer.github.com/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
                     "required": true
                 }
             ],
@@ -2396,7 +2396,7 @@
             "previews": [
                 {
                     "name": "barred-rock",
-                    "description": "The source import APIs are currently in public preview. See the [source import](/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
+                    "description": "The source import APIs are currently in public preview. See the [source import](https://developer.github.com/v3/previews/#source-import) preview for more details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.barred-rock-preview\n\n```",
                     "required": true
                 }
             ],
@@ -2627,7 +2627,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -2810,7 +2810,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -2823,7 +2823,7 @@
                     "location": "url"
                 }
             ],
-            "description": "Fetches a single user migration. The response includes the `state` of the migration, which can be one of the following values:\n\n*   `pending` - the migration hasn't started yet.\n*   `exporting` - the migration is in progress.\n*   `exported` - the migration finished successfully.\n*   `failed` - the migration failed.\n\nOnce the migration has been `exported` you can [download the migration archive](#download-a-user-migration-archive).",
+            "description": "Fetches a single user migration. The response includes the `state` of the migration, which can be one of the following values:\n\n*   `pending` - the migration hasn't started yet.\n*   `exporting` - the migration is in progress.\n*   `exported` - the migration finished successfully.\n*   `failed` - the migration failed.\n\nOnce the migration has been `exported` you can [download the migration archive](https://developer.github.com/v3/migrations/users/#download-a-user-migration-archive).",
             "responses": [
                 {
                     "headers": {
@@ -2982,7 +2982,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -3016,7 +3016,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -3029,7 +3029,7 @@
                     "location": "url"
                 }
             ],
-            "description": "Deletes a previous migration archive. Downloadable migration archives are automatically deleted after seven days. Migration metadata, which is returned in the [Get a list of user migrations](#get-a-list-of-user-migrations) and [Get the status of a user migration](#get-the-status-of-a-user-migration) endpoints, will continue to be available even after an archive is deleted.",
+            "description": "Deletes a previous migration archive. Downloadable migration archives are automatically deleted after seven days. Migration metadata, which is returned in the [Get a list of user migrations](https://developer.github.com/v3/migrations/users/#get-a-list-of-user-migrations) and [Get the status of a user migration](https://developer.github.com/v3/migrations/users/#get-the-status-of-a-user-migration) endpoints, will continue to be available even after an archive is deleted.",
             "responses": [
                 {
                     "headers": {
@@ -3050,7 +3050,7 @@
             "previews": [
                 {
                     "name": "wyandotte",
-                    "description": "To access the Migrations API, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
+                    "description": "To access the Migrations API, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.wyandotte-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -3070,7 +3070,7 @@
                     "location": "url"
                 }
             ],
-            "description": "Unlocks a repository. You can lock repositories when you [start a user migration](#start-a-user-migration). Once the migration is complete you can unlock each repository to begin using it again or [delete the repository](https://developer.github.com/v3/repos/#delete-a-repository) if you no longer need the source data. Returns a status of `404 Not Found` if the repository is not locked.",
+            "description": "Unlocks a repository. You can lock repositories when you [start a user migration](https://developer.github.com/v3/migrations/users/#start-a-user-migration). Once the migration is complete you can unlock each repository to begin using it again or [delete the repository](https://developer.github.com/v3/repos/#delete-a-repository) if you no longer need the source data. Returns a status of `404 Not Found` if the repository is not locked.",
             "responses": [
                 {
                     "headers": {
@@ -4213,7 +4213,7 @@
             "previews": [
                 {
                     "name": "dazzler",
-                    "description": "**Note:** You can now use the API to invite users to a GitHub organization. This feature is currently available for developers to preview. See the [blog post](/changes/2018-01-25-organization-invitation-api-preview) for full details. To access this feature, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dazzler-preview+json\n\n```",
+                    "description": "**Note:** You can now use the API to invite users to a GitHub organization. This feature is currently available for developers to preview. See the [blog post](https://developer.github.com/changes/2018-01-25-organization-invitation-api-preview) for full details. To access this feature, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dazzler-preview+json\n\n```",
                     "required": false
                 }
             ],
@@ -4285,7 +4285,7 @@
             "previews": [
                 {
                     "name": "dazzler",
-                    "description": "**Note:** You can now use the API to invite users to a GitHub organization. This feature is currently available for developers to preview. See the [blog post](/changes/2018-01-25-organization-invitation-api-preview) for full details. To access this feature, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dazzler-preview+json\n\n```",
+                    "description": "**Note:** You can now use the API to invite users to a GitHub organization. This feature is currently available for developers to preview. See the [blog post](https://developer.github.com/changes/2018-01-25-organization-invitation-api-preview) for full details. To access this feature, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dazzler-preview+json\n\n```",
                     "required": false
                 }
             ],
@@ -4366,7 +4366,7 @@
             "previews": [
                 {
                     "name": "dazzler",
-                    "description": "**Note:** You can now use the API to invite users to a GitHub organization. This feature is currently available for developers to preview. See the [blog post](/changes/2018-01-25-organization-invitation-api-preview) for full details. To access this feature, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dazzler-preview+json\n\n```",
+                    "description": "**Note:** You can now use the API to invite users to a GitHub organization. This feature is currently available for developers to preview. See the [blog post](https://developer.github.com/changes/2018-01-25-organization-invitation-api-preview) for full details. To access this feature, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dazzler-preview+json\n\n```",
                     "required": false
                 }
             ],
@@ -4476,7 +4476,7 @@
             "previews": [
                 {
                     "name": "inertia",
-                    "description": "The Projects API is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the [blog post](/changes/2016-10-27-changes-to-projects-api) for full details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.inertia-preview+json\n\n```",
+                    "description": "The Projects API is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the [blog post](https://developer.github.com/changes/2016-10-27-changes-to-projects-api) for full details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.inertia-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -4575,7 +4575,7 @@
             "previews": [
                 {
                     "name": "inertia",
-                    "description": "The Projects API is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the [blog post](/changes/2016-10-27-changes-to-projects-api) for full details. To access the API during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.inertia-preview+json\n\n```",
+                    "description": "The Projects API is currently available for developers to preview. During the preview period, the API may change without advance notice. Please see the [blog post](https://developer.github.com/changes/2016-10-27-changes-to-projects-api) for full details. To access the API during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\n  application/vnd.github.inertia-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -4665,6 +4665,71 @@
         }
     ],
     "pulls": [
+        {
+            "name": "Update a pull request branch",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "PUT",
+            "path": "/repos/:owner/:repo/pulls/:pull_number/update-branch",
+            "previews": [
+                {
+                    "name": "lydian",
+                    "description": "**Note:** Updating the pull request branch with latest upstream changes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.lydian-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "pull_number",
+                    "type": "integer",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "expected_head_sha",
+                    "type": "string",
+                    "description": "The expected SHA of the pull request's HEAD ref. This is the most recent commit on the pull request's branch. If the expected SHA does not match the pull request's HEAD, you will receive a `422 Unprocessable Entity` status. You can use the \"[List commits on a repository](https://developer.github.com/v3/repos/commits/#list-commits-on-a-repository)\" endpoint to find the most recent commit SHA.",
+                    "default": "SHA of the pull request's current HEAD ref.",
+                    "required": false,
+                    "location": "body"
+                }
+            ],
+            "requests": [
+                {
+                    "expected_head_sha": "6dcb09b5b57875f334f61aebed695e2e4193db5e"
+                }
+            ],
+            "description": "Updates the pull request branch with the latest upstream changes by merging HEAD from the base branch into the pull request branch.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "202 Accepted",
+                        "content-type": "application/json; charset=utf-8"
+                    },
+                    "body": {
+                        "message": "Updating pull request branch.",
+                        "url": "https://github.com/repos/octocat/Hello-World/pulls/53"
+                    }
+                }
+            ],
+            "idName": "update-branch",
+            "documentationUrl": "https://developer.github.com/v3/pulls/#update-a-pull-request-branch"
+        },
         {
             "name": "Update a pull request review",
             "enabledForApps": true,
@@ -4790,7 +4855,7 @@
             "path": "/rate_limit",
             "previews": [],
             "params": [],
-            "description": "**Note:** Accessing this endpoint does not count against your REST API rate limit.\n\n**Understanding your rate limit status**\n\nThe Search API has a [custom rate limit](https://developer.github.com/v3/search/#rate-limit), separate from the rate limit governing the rest of the REST API. The GraphQL API also has a [custom rate limit](/v4/guides/resource-limitations/#rate-limit) that is separate from and calculated differently than rate limits in the REST API.\n\nFor these reasons, the Rate Limit API response categorizes your rate limit. Under `resources`, you'll see four objects:\n\n*   The `core` object provides your rate limit status for all non-search-related resources in the REST API.\n*   The `search` object provides your rate limit status for the [Search API](https://developer.github.com/v3/search/).\n*   The `graphql` object provides your rate limit status for the [GraphQL API](/v4/).\n*   The `integration_manifest` object provides your rate limit status for the [GitHub App Manifest code conversion](https://developer.github.com/apps/building-github-apps/creating-github-apps-from-a-manifest/#3-you-exchange-the-temporary-code-to-retrieve-the-app-configuration) endpoint.\n\nFor more information on the headers and values in the rate limit response, see \"[Rate limiting](https://developer.github.com/v3/#rate-limiting).\"\n\nThe `rate` object (shown at the bottom of the response above) is deprecated.\n\nIf you're writing new API client code or updating existing code, you should use the `core` object instead of the `rate` object. The `core` object contains the same information that is present in the `rate` object.",
+            "description": "**Note:** Accessing this endpoint does not count against your REST API rate limit.\n\n**Understanding your rate limit status**\n\nThe Search API has a [custom rate limit](https://developer.github.com/v3/search/#rate-limit), separate from the rate limit governing the rest of the REST API. The GraphQL API also has a [custom rate limit](https://developer.github.com/v4/guides/resource-limitations/#rate-limit) that is separate from and calculated differently than rate limits in the REST API.\n\nFor these reasons, the Rate Limit API response categorizes your rate limit. Under `resources`, you'll see four objects:\n\n*   The `core` object provides your rate limit status for all non-search-related resources in the REST API.\n*   The `search` object provides your rate limit status for the [Search API](https://developer.github.com/v3/search/).\n*   The `graphql` object provides your rate limit status for the [GraphQL API](https://developer.github.com/v4/).\n*   The `integration_manifest` object provides your rate limit status for the [GitHub App Manifest code conversion](https://developer.github.com/apps/building-github-apps/creating-github-apps-from-a-manifest/#3-you-exchange-the-temporary-code-to-retrieve-the-app-configuration) endpoint.\n\nFor more information on the headers and values in the rate limit response, see \"[Rate limiting](https://developer.github.com/v3/#rate-limiting).\"\n\nThe `rate` object (shown at the bottom of the response above) is deprecated.\n\nIf you're writing new API client code or updating existing code, you should use the `core` object instead of the `rate` object. The `core` object contains the same information that is present in the `rate` object.",
             "responses": [
                 {
                     "headers": {
@@ -4842,7 +4907,7 @@
             "previews": [
                 {
                     "name": "dorian",
-                    "description": "**Note:** Enabling and disabling vulnerability alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dorian-preview+json\n\n```",
+                    "description": "**Note:** Enabling and disabling vulnerability alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dorian-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -4883,7 +4948,7 @@
             "previews": [
                 {
                     "name": "dorian",
-                    "description": "**Note:** Enabling and disabling vulnerability alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dorian-preview+json\n\n```",
+                    "description": "**Note:** Enabling and disabling vulnerability alerts for a repository using the REST API is currently available for developers to preview. To access these new endpoints during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dorian-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -4916,6 +4981,88 @@
             "documentationUrl": "https://developer.github.com/v3/repos/#disable-vulnerability-alerts"
         },
         {
+            "name": "Enable automated security fixes",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "PUT",
+            "path": "/repos/:owner/:repo/automated-security-fixes",
+            "previews": [
+                {
+                    "name": "london",
+                    "description": "**Note:** Enabling or disabling automated security fixes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.london-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                }
+            ],
+            "description": "Enables automated security fixes for a repository. The authenticated user must have admin access to the repository. For more information, see \"[Configuring automated security fixes](https://help.github.com/en/articles/configuring-automated-security-fixes)\" in the GitHub Help documentation.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "204 No Content",
+                        "content-type": "application/json; charset=utf-8"
+                    }
+                }
+            ],
+            "idName": "enable-automated-security-fixes",
+            "documentationUrl": "https://developer.github.com/v3/repos/#enable-automated-security-fixes"
+        },
+        {
+            "name": "Disable automated security fixes",
+            "enabledForApps": false,
+            "githubCloudOnly": false,
+            "method": "DELETE",
+            "path": "/repos/:owner/:repo/automated-security-fixes",
+            "previews": [
+                {
+                    "name": "london",
+                    "description": "**Note:** Enabling or disabling automated security fixes is currently available for developers to preview. To access this new endpoint during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.london-preview+json\n\n```",
+                    "required": false
+                }
+            ],
+            "params": [
+                {
+                    "name": "owner",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                },
+                {
+                    "name": "repo",
+                    "type": "string",
+                    "required": true,
+                    "description": "",
+                    "location": "url"
+                }
+            ],
+            "description": "Disables automated security fixes for a repository. The authenticated user must have admin access to the repository. For more information, see \"[Configuring automated security fixes](https://help.github.com/en/articles/configuring-automated-security-fixes)\" in the GitHub Help documentation.",
+            "responses": [
+                {
+                    "headers": {
+                        "status": "204 No Content",
+                        "content-type": "application/json; charset=utf-8"
+                    }
+                }
+            ],
+            "idName": "disable-automated-security-fixes",
+            "documentationUrl": "https://developer.github.com/v3/repos/#disable-automated-security-fixes"
+        },
+        {
             "name": "List branches for HEAD commit",
             "enabledForApps": true,
             "githubCloudOnly": false,
@@ -4924,7 +5071,7 @@
             "previews": [
                 {
                     "name": "groot",
-                    "description": "**Note:** Listing branches or pull requests for a commit in the Commits API is currently available for developers to preview. See the [blog post](/changes/2019-04-11-pulls-branches-for-commit/) for more details. To access the new endpoints during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.groot-preview+json\n\n```",
+                    "description": "**Note:** Listing branches or pull requests for a commit in the Commits API is currently available for developers to preview. See the [blog post](https://developer.github.com/changes/2019-04-11-pulls-branches-for-commit/) for more details. To access the new endpoints during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.groot-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -4982,7 +5129,7 @@
             "previews": [
                 {
                     "name": "groot",
-                    "description": "**Note:** Listing branches or pull requests for a commit in the Commits API is currently available for developers to preview. See the [blog post](/changes/2019-04-11-pulls-branches-for-commit/) for more details. To access the new endpoints during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.groot-preview+json\n\n```",
+                    "description": "**Note:** Listing branches or pull requests for a commit in the Commits API is currently available for developers to preview. See the [blog post](https://developer.github.com/changes/2019-04-11-pulls-branches-for-commit/) for more details. To access the new endpoints during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.groot-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -5602,12 +5749,12 @@
             "previews": [
                 {
                     "name": "switcheroo",
-                    "description": "**Note:** Enabling and disabling Pages in the Pages API is currently available for developers to preview. See the [blog post](/changes/2019-03-14-enabling-disabling-pages/) preview for more details. To access the new endpoints during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.switcheroo-preview+json\n\n```",
+                    "description": "**Note:** Enabling and disabling Pages in the Pages API is currently available for developers to preview. See the [blog post](https://developer.github.com/changes/2019-03-14-enabling-disabling-pages/) preview for more details. To access the new endpoints during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.switcheroo-preview+json\n\n```",
                     "required": true
                 },
                 {
                     "name": "mister-fantastic",
-                    "description": "**Note:** The GitHub Pages API contains two additional fields in responses, which developers can preview: `html_url` and `source`. To see these two new fields, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.mister-fantastic-preview+json\n\n```",
+                    "description": "**Note:** The GitHub Pages API contains two additional fields in responses, which developers can preview: `html_url` and `source`. To see these two new fields, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.mister-fantastic-preview+json\n\n```",
                     "required": false
                 }
             ],
@@ -5692,7 +5839,7 @@
             "previews": [
                 {
                     "name": "switcheroo",
-                    "description": "**Note:** Enabling and disabling Pages in the Pages API is currently available for developers to preview. See the [blog post](/changes/2019-03-14-enabling-disabling-pages/) preview for more details. To access the new endpoints during the preview period, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.switcheroo-preview+json\n\n```",
+                    "description": "**Note:** Enabling and disabling Pages in the Pages API is currently available for developers to preview. See the [blog post](https://developer.github.com/changes/2019-03-14-enabling-disabling-pages/) preview for more details. To access the new endpoints during the preview period, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.switcheroo-preview+json\n\n```",
                     "required": true
                 }
             ],
@@ -6470,7 +6617,7 @@
                     ]
                 }
             ],
-            "description": "Replaces an existing provisioned user's information. You must provide all the information required for the user as if you were provisioning them for the first time. Any existing user information that you don't provide will be removed. If you want to only update a specific attribute, use the [Update a user attribute](#update-a-user-attribute) endpoint instead.\n\nAs shown in the following example, you must at least provide the required values for the user: `userName`, `name`, and `emails`.\n\n**Warning:** Setting `active: false` removes the user from the organization, deletes the external identity, and deletes the associated `:scim_user_id`.",
+            "description": "Replaces an existing provisioned user's information. You must provide all the information required for the user as if you were provisioning them for the first time. Any existing user information that you don't provide will be removed. If you want to only update a specific attribute, use the [Update a user attribute](https://developer.github.com/v3/scim/#update-a-user-attribute) endpoint instead.\n\nAs shown in the following example, you must at least provide the required values for the user: `userName`, `name`, and `emails`.\n\n**Warning:** Setting `active: false` removes the user from the organization, deletes the external identity, and deletes the associated `:scim_user_id`.",
             "responses": [
                 {
                     "headers": {
@@ -6567,7 +6714,7 @@
                     ]
                 }
             ],
-            "description": "Replaces an existing provisioned user's information. You must provide all the information required for the user as if you were provisioning them for the first time. Any existing user information that you don't provide will be removed. If you want to only update a specific attribute, use the [Update a user attribute](#update-a-user-attribute) endpoint instead.\n\nAs shown in the following example, you must at least provide the required values for the user: `userName`, `name`, and `emails`.\n\n**Warning:** Setting `active: false` removes the user from the organization, deletes the external identity, and deletes the associated `:scim_user_id`.",
+            "description": "Replaces an existing provisioned user's information. You must provide all the information required for the user as if you were provisioning them for the first time. Any existing user information that you don't provide will be removed. If you want to only update a specific attribute, use the [Update a user attribute](https://developer.github.com/v3/scim/#update-a-user-attribute) endpoint instead.\n\nAs shown in the following example, you must at least provide the required values for the user: `userName`, `name`, and `emails`.\n\n**Warning:** Setting `active: false` removes the user from the organization, deletes the external identity, and deletes the associated `:scim_user_id`.",
             "responses": [
                 {
                     "headers": {
@@ -6865,7 +7012,7 @@
             "previews": [
                 {
                     "name": "dazzler",
-                    "description": "**Note:** You can now use the API to invite users to a GitHub organization. This feature is currently available for developers to preview. See the [blog post](/changes/2018-01-25-organization-invitation-api-preview) for full details. To access this feature, you must provide a custom [media type](/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dazzler-preview+json\n\n```",
+                    "description": "**Note:** You can now use the API to invite users to a GitHub organization. This feature is currently available for developers to preview. See the [blog post](https://developer.github.com/changes/2018-01-25-organization-invitation-api-preview) for full details. To access this feature, you must provide a custom [media type](https://developer.github.com/v3/media) in the `Accept` header:\n\n```\napplication/vnd.github.dazzler-preview+json\n\n```",
                     "required": false
                 }
             ],
