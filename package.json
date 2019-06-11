@@ -15,7 +15,7 @@
     "url": "https://github.com/swinton/github-rest-api-availability-analysis.git"
   },
   "dependencies": {
-    "@octokit/routes": "20.2.5",
+    "@octokit/routes": "20.7.1",
     "lodash": "^4.17.11"
   }
 }
