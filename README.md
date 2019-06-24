@@ -84,14 +84,18 @@ The following REST API routes are currently _unavailable_ on GitHub Enterprise S
 - Create a user project:  [`POST /user/projects`](https://developer.github.com/v3/projects/#create-a-user-project)
 
 ## pulls
+- Update a pull request branch:  [`PUT /repos/:owner/:repo/pulls/:pull_number/update-branch`](https://developer.github.com/v3/pulls/#update-a-pull-request-branch)
 - Update a pull request review:  [`PUT /repos/:owner/:repo/pulls/:pull_number/reviews/:review_id`](https://developer.github.com/v3/pulls/reviews/#update-a-pull-request-review)
 
 ## rateLimit
 - Get your current rate limit status:  [`GET /rate_limit`](https://developer.github.com/v3/rate_limit/#get-your-current-rate-limit-status)
 
 ## repos
+- Check if vulnerability alerts are enabled for a repository:  [`GET /repos/:owner/:repo/vulnerability-alerts`](https://developer.github.com/v3/repos/#check-if-vulnerability-alerts-are-enabled-for-a-repository)
 - Enable vulnerability alerts:  [`PUT /repos/:owner/:repo/vulnerability-alerts`](https://developer.github.com/v3/repos/#enable-vulnerability-alerts)
 - Disable vulnerability alerts:  [`DELETE /repos/:owner/:repo/vulnerability-alerts`](https://developer.github.com/v3/repos/#disable-vulnerability-alerts)
+- Enable automated security fixes:  [`PUT /repos/:owner/:repo/automated-security-fixes`](https://developer.github.com/v3/repos/#enable-automated-security-fixes)
+- Disable automated security fixes:  [`DELETE /repos/:owner/:repo/automated-security-fixes`](https://developer.github.com/v3/repos/#disable-automated-security-fixes)
 - List branches for HEAD commit:  [`GET /repos/:owner/:repo/commits/:commit_sha/branches-where-head`](https://developer.github.com/v3/repos/commits/#list-branches-for-head-commit)
 - List pull requests associated with commit:  [`GET /repos/:owner/:repo/commits/:commit_sha/pulls`](https://developer.github.com/v3/repos/commits/#list-pull-requests-associated-with-commit)
 - Retrieve community profile metrics:  [`GET /repos/:owner/:repo/community/profile`](https://developer.github.com/v3/repos/community/#retrieve-community-profile-metrics)
@@ -115,6 +119,9 @@ The following REST API routes are currently _unavailable_ on GitHub Enterprise S
 ## teams
 - Get team by name:  [`GET /orgs/:org/teams/:team_slug`](https://developer.github.com/v3/teams/#get-team-by-name)
 - List pending team invitations:  [`GET /teams/:team_id/invitations`](https://developer.github.com/v3/teams/members/#list-pending-team-invitations)
+- List IdP groups in an organization:  [`GET /orgs/:org/team-sync/groups`](https://developer.github.com/v3/teams/team_sync/#list-idp-groups-in-an-organization)
+- List IdP groups for a team:  [`GET /teams/:team_id/team-sync/group-mappings`](https://developer.github.com/v3/teams/team_sync/#list-idp-groups-for-a-team)
+- Create or update IdP group connections:  [`PATCH /teams/:team_id/team-sync/group-mappings`](https://developer.github.com/v3/teams/team_sync/#create-or-update-idp-group-connections)
 
 ## users
 - List blocked users:  [`GET /user/blocks`](https://developer.github.com/v3/users/blocking/#list-blocked-users)
